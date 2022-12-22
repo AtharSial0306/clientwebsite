@@ -1,0 +1,421 @@
+ body {
+     margin: 0;
+     background: #fff;
+ }
+
+ /*Menu Responsive*/
+ @media only screen and (max-width: 767px) {
+     #menu .brand {
+         width: 100%;
+         text-align: center;
+     }
+
+     #menu .menu {
+         width: 100%;
+         text-align: center;
+     }
+ }
+
+ #header {
+     /*    position: fixed;*/
+     top: 0;
+     width: 100%;
+     background-color: #fff;
+ }
+
+ #menu {
+     /*            border: 1px solid;*/
+     color: #153D32;
+     padding: 0 5%;
+ }
+
+ #menu .brand {
+     float: left;
+     padding: 12px 10px
+ }
+
+ .brand a {
+     font-size: 25px;
+     text-decoration: none;
+     color: #153D32;
+     font-weight: 100;
+     font-style: italic;
+     letter-spacing: 1px;
+ }
+
+ #menu .menu {
+     float: right;
+ }
+
+ #menu .menu ul li {
+     display: inline-block;
+     margin: 0 10px;
+ }
+
+ #menu .menu ul li a {
+     text-decoration: none;
+     color: #153D32;
+     font-size: 17px;
+ }
+
+ .cash {
+     color: darkorange;
+ }
+
+ .clear {
+     clear: both;
+ }
+
+ /*        Main Styling*/
+ #main {
+     width: 100%;
+ }
+
+ .hero-section {
+     box-sizing: border-box;
+     background-color: #0A6944;
+     margin-bottom: 100px;
+     padding-top: 4rem;
+ }
+
+ .left-area {
+     width: 40%;
+     padding: 1% 5%;
+     color: #fff;
+     float: left;
+ }
+
+ .left-area h1 {
+     font-size: 2.5rem;
+     font-weight: 100;
+     line-height: 1.2;
+ }
+
+ .left-area p {
+     font-size: 20px;
+     letter-spacing: 1px;
+
+ }
+
+ .download-btn {
+     font-family: 'Roboto', sans-serif;
+     color: #217757;
+     background: #fff;
+     border: none;
+     margin: 3% 5% 10% 0;
+     padding: 10px 30px;
+     border-radius: 6px;
+     font-size: 17px;
+ }
+
+ .right-area {
+     width: 40%;
+     float: right;
+     padding: 10% 5% 1% 2%;
+ }
+
+ /*        Video Element Use*/
+ .video {
+     width: 100%;
+     background-color: #fff;
+     margin-bottom: 100px;
+     margin-left: 20px;
+     margin-right: 20px;
+     font-family: georgia;
+ }
+
+ .text-area {
+     width: 40%;
+     float: left;
+     text-align: left;
+     padding-left: 20px;
+ }
+
+ .text-area h3 {
+     color: #000;
+     text-decoration: none;
+     margin-bottom: 2px;
+     margin-right: 0px;
+ }
+
+ .video-area {
+     width: 40%;
+     float: right;
+     margin: 0 70px 0;
+ }
+
+ /*        Showcase Styling*/
+ .showcase {
+     background-image: url(images/section-img.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     /*            opacity: 0.9;*/
+ }
+
+ .showcase h2 {
+     margin-top: 0;
+     margin-bottom: 0;
+     color: #fff;
+     text-align: center;
+     font-size: 3rem;
+     font-weight: 700;
+     width: 70%;
+     margin: 0 auto;
+     padding: 60px 0px;
+ }
+
+ .showcase p {
+     margin-top: 0;
+     font-size: 25px;
+     color: #fff;
+     width: 80%;
+     margin: 0 auto;
+     text-align: center;
+     padding-top: 0px;
+     padding-bottom: 50px;
+
+ }
+
+ .app-btn {
+     font-family: 'Roboto', sans-serif;
+     color: #000;
+     background: #fff;
+     border: none;
+     padding: 10px 30px;
+     border-radius: 10px;
+     font-size: 17px;
+     text-align: center;
+     margin-left: 40%;
+     margin-bottom: 30px;
+
+ }
+
+ /*        video Styling*/
+ .video {
+     background: #fff;
+     margin: 50px auto;
+ }
+
+ h3 {
+     text-align: center;
+     font-size: 2rem;
+     color: #217757;
+     font-weight: normal;
+     text-decoration: underline;
+     margin: 0 auto;
+     margin-bottom: 3rem;
+ }
+
+ /*        call to action Styling*/
+ .cta {
+     background-color: #217757;
+     width: 100%;
+     text-align: center;
+     margin: 100px 0;
+     padding: 50px 0
+ }
+
+ .cta h4 {
+     font-size: 2rem;
+     width: 60%;
+     margin: 0 auto;
+     color: #fff;
+     padding: 1% 0 5%;
+     font-weight: 500;
+ }
+
+ .cta-btn {
+     padding: 15px 40px;
+     font-size: 20px;
+     margin: 0 10px;
+     border-radius: 10px;
+     border: none;
+ }
+
+ .cta-btn:hover {
+     background: #000;
+     color: #fff;
+     cursor: pointer;
+ }
+
+ /*        Footer Styling*/
+ #footer {
+     background-color: #217757;
+     text-align: center;
+     padding: 30px 0px 5px;
+     color: #fff;
+ }
+
+ #footer .social {
+     font-size: 50px;
+     margin: 0 10px;
+     color: #fff;
+ }
+
+ #footer p {
+     padding-top: 30px;
+ }
+
+ #footer p a {
+     text-decoration: none;
+     color: #fff;
+ }
+
+ /*        Contact Button styling*/
+ .contact-btn {
+     padding: 10px 20px;
+     background: #217757;
+     color: #fff;
+     font-size: 15px;
+     font-family: Arial;
+     text-align: center;
+     border: none;
+     border-radius: 10px;
+     margin: 10px 20px;
+     cursor: pointer;
+ }
+
+
+ /* About Page Styling CSS here */
+ .about {
+     margin-bottom: 100px;
+     padding: 50px 20px;
+     border-top: 10px solid #217789;
+     border-radius: 10px
+ }
+
+ .about-left {
+     width: 45%;
+     float: left;
+     text-align: justify;
+     font-size: 1.2rem;
+     line-height: 1.3;
+ }
+
+ .about-left h3 {
+     text-decoration: none;
+     font-weight: 100;
+     margin-top: 0;
+     margin-bottom: 20px;
+ }
+
+ .about-left p {
+     margin-top: 0;
+ }
+
+ .about-right {
+     width: 45%;
+     float: right;
+ }
+
+ .about-right img {
+     height: 500px;
+     padding-left: 40px;
+     border-radius: 20px;
+ }
+
+ /*        Team Member Section Styling*/
+ .team {
+     /*            background: orange;*/
+     text-align: center;
+     color: #153D32;
+     margin-bottom: 100px;
+ }
+
+ .team h1 {
+     margin-bottom: 50px;
+     text-decoration: underline;
+ }
+
+ .team-members {}
+
+ .member {
+     width: 12.5rem;
+     float: left;
+     margin: 0 3.75rem;
+ }
+
+ .member img {
+     margin-bottom: 15px;
+     border-radius: 1rem;
+ }
+
+ .member h4 {
+     margin-top: 0;
+     font-size: 1.2rem;
+     margin-bottom: 0;
+ }
+
+ .member p {
+     color: #000;
+     font-size: 17px;
+     line-height: 1.3
+ }
+
+ /*        Video Styling*/
+ .video-area h3 {
+     margin: 0 auto;
+     text-decoration: none;
+ }
+
+
+ /* Contact page Styling Here */
+ .content-area {
+     width: 100%;
+     margin: 0 auto;
+     margin-bottom: 50px;
+     background-color: #217757;
+     color: #fff;
+     padding: 0 0 170px;
+
+ }
+
+ .content-area h3 {
+     text-decoration: none;
+     color: #fff;
+     padding-top: 50px;
+ }
+
+ .left-content-area {}
+
+ .left-content-area a {
+     font-size: 3rem;
+     color: #fff;
+     margin: 0 5px;
+     padding: 15px 0;
+
+ }
+
+ .left-content-area address {
+     font-size: 25px;
+     padding: 20px 0;
+ }
+
+ .right-content-area {
+     font-size: 25px;
+ }
+
+ .right-content-area form input {
+     border: none;
+     width: 100%;
+     height: 25px;
+
+ }
+
+ .content {
+     width: 40%;
+     height: 12.5rem;
+     float: left;
+     margin: 0 2.5rem;
+ }
+
+ .submit {
+     border-radius: 1px;
+     border: none;
+     font-size: 20px;
+     color: #000;
+     background: #fff;
+     margin-top: 10px;
+ }
